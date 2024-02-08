@@ -8,6 +8,7 @@ const JobPosition = ({ title, subtitle, content }) => {
       <Title>{title}</Title>
       <SubTitle>{subtitle}</SubTitle>
       <p className="text-base text-gray-600 mt-3 text-justify font-normal ">
+{/*         Man Content */}
         {content}
       </p>
     </div>
