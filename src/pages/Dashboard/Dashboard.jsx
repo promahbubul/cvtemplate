@@ -1,5 +1,5 @@
 import React from "react";
-import { cv1, cv2 } from "../../assets/Images/Images";
+import { cv1, cv2, cv3 } from "../../assets/Images/Images";
 import { Link } from "react-router-dom";
 
 const Dashboard = () => {
@@ -22,7 +22,7 @@ const Dashboard = () => {
         to={"/cv3"}
         className="col-span-3 cursor-pointer hover:scale-105 duration-500"
       >
-        <img src={cv1} alt="" />
+        <img src={cv3} alt="" />
       </Link>
       <Link
         to={"/cv4"}

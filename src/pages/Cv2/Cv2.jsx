@@ -10,7 +10,7 @@ const Cv2 = () => {
   return (
     <div className="max-w-4xl m-5 bg-white shadow-2xl border flex flex-row mx-auto">
       {/* LEFT */}
-      <section className="bg-[#1B1E2F] w-4/12 h-auto py-10">
+      <section className="bg-[#1B1E2F] w-4/12 h-auto- py-10">
         {/* PROFILE PIC */}
         <div className="text-center">
           <div className="inline-block rounded-full bg-[#FECB00] p-1">
